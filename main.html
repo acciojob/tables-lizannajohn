@@ -18,10 +18,10 @@
 	<!-- the entire body must be written by student -->
 
 	<p class="fw-normal text-muted"> List of all transactions </p>
-	<table class="table">
+	<table class="table table-hover table-responsive">
 		<caption> </caption>
-		<thead>
-		  <tr class="table-dark">
+		<thead class="table-dark">
+		  <tr>
 			<th scope="col">#</th>
 			<th scope="col">From</th>
 			<th scope="col">To</th>
@@ -50,10 +50,13 @@
 		  <tr class="table-group-divider">
 			<th scope="row"></th>
 			<td></td>
-			<td class="text-end font-monospace fw-bold" id="total">Total</td>
+			<td class="text-end font-monospace fw-bold" id="total" colspan="1">Total</td>
 			<td class="fw-bold">4500</td>
 		  </tr>
 		</tbody>
+		<tfoot class="table-light">
+
+		</tfoot>
 	  </table>
 
     <script type="text/javascript" src="./script.js"> </script>
